@@ -1,29 +1,36 @@
-# Note-Taking-App
-- A command line run app for adding/removing/listing notes. Made using NodeJS and written in ES6.
-- Use 'npm install' to install all dependencies before running the app.js file.
+# NotesWise
+- A CLI tool build using javascript and various node js cli tool building package
 
-### Adding a note
-- Use the 'add' command along with '--title=' and '--body=' flags for adding the note.
-- Both flags are compulsory
+# APP Setup
+- Run "npm install" 
+- Run app.js with the help of the following command "node app.js"
+
+### Adding Note
+- To add a note use "add" command
+- Use --title to add title
+- Use --body to add the task
+- Both flags are necessary
 - Cannot add notes with same title
-- node app.js add --title="Note title" --body="task 1, task 2,.."
+- Example usage => node app.js add --title="Note title" --body="task 1, task 2,.."
 
 ### Remove a note
-- Use the 'remove' command along with '--title=' for removing the note.
-- Compulsory flag
-- node app.js remove --title="Note title"
+- To remove the note use 'remove command also pass the '--title=<your title>' for removing the note
+- Examole usage => node app.js remove --title="Note title"
+
 
 ### Listing all notes
-- Use 'list' command to list out all the notes on the terminal
-- node app.js list
+- To list all the notes use 'list' command
+- Example usage => node app.js list
+
 
 ### Reading a note
-- Use 'read' command along with '--title=' flag for reading a particular note
-- node app.js read --title="Note title"
+- To read the particular note use 'read' command along with '--title=' flag
+- Example usage => node app.js read --title="Note title"
+
 
 ### Appending to a note
-- Use 'append' command along with '--title=' and '--body=' flags for adding tasks to an existing note.
-- node app.js append --title="Note title" --body="task 3, task 4,.."
+- To add the task to the existing notes '--title=' and '--body=' to add the task into the existing one
+- Example usage => node app.js append --title="Note title" --body="task 3, task 4,.."
 
 
 
